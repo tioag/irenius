@@ -1,0 +1,52 @@
+
+/* CSS for Order Section */
+.order-section {
+    background: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.order-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333; /* Sesuaikan warna teks dengan tema Anda */
+}
+
+.order-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.order-section label {
+    font-size: 18px;
+    color: #666; /* Warna teks label */
+}
+
+.order-section input[type="text"],
+.order-section select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.order-section button[type="submit"] {
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.order-section button[type="submit"]:hover {
+    background-color: #555; /* Warna hover button */
+}
